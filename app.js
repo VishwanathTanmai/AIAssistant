@@ -111,7 +111,7 @@ function speakThis(message) {
     
     else if(message.includes('open hotstar')) {
         window.open("https://hotstar.com", "_blank");
-        const finalText = "Opening vtop";
+        const finalText = "Opening hotstar";
         speech.text = finalText;
     }
     
@@ -189,7 +189,7 @@ function speakThis(message) {
     }
 
     speech.volume = 1;
-    speech.pitch = 0;
+    speech.pitch = 1;
     speech.rate = 1;
 
     window.speechSynthesis.speak(speech);
