@@ -189,7 +189,7 @@ function speakThis(message) {
     }
 
     speech.volume = 1;
-    speech.pitch = 2;
+    speech.pitch = 0;
     speech.rate = 1;
 
     window.speechSynthesis.speak(speech);
