@@ -5,7 +5,7 @@ function speak(sentence) {
     const text_speak = new SpeechSynthesisUtterance(sentence);
 
     text_speak.rate = 1;
-    text_speak.pitch = 2;
+    text_speak.pitch = 1;
 
     window.speechSynthesis.speak(text_speak);
 }
@@ -189,7 +189,7 @@ function speakThis(message) {
     }
 
     speech.volume = 1;
-    speech.pitch = 3;
+    speech.pitch = 1;
     speech.rate = 1;
 
     window.speechSynthesis.speak(speech);
